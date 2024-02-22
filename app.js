@@ -12,6 +12,9 @@ app.get("/",function(req,res){
    
 });
 
+var baseUrl = "https://manas.atlassian.net/rest/api/2";
+   var username = "manas.jha@armorcode.io";
+  var password = "ATATT3xFfGF0BaCIGSZ8eEmsI_s5fSDzhe6CSrc7jHhaMJjmzv1tqJolfn9BXDqHZEZcHC8GQpi0K6Gxlq9cb0H5ACgz5mrDx00Wf3sc8RkZ2jw3W-5SO12DKdxoUaz4kI12jLScXuhuL6S8AAhw-8oOcj0eT0KCLMTZNqobcD2DUY_97Q5bues=6B2582EA";
 
 const url ="https://us5.api.mailchimp.com/3.0/lists/5f82d24bde";
     const options = {
